@@ -125,12 +125,22 @@ select:hover{
     transform: scale(0.95);
 }
 
-@media screen and (min-width: 900px){
+@media screen and (max-width: 1000px){
     h1{
-        font-size: 2.4rem;
+        font-size: 4rem;
+    }
+    h1 span{
+        font-size: 6rem;
+    }
+    .section-header p, #submit-btn, .section-header label{
+        font-size: 2rem;
+    }
+    .introText{
+        font-size: 3rem;
+    }
+    select{
+        width: 100%;
+        font-size: 1.2em;
     }
 
-    .introText{
-        font-size: 1.6rem;
-    }
 }

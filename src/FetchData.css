@@ -73,3 +73,20 @@
     border-left: 3px solid rgb(240, 50, 250);
     padding-left: 20px;
 }
+@media screen and (max-width: 1000px) {
+    .question{
+        font-size: 2.5rem;
+    }
+    .choices{
+        font-size: 1.8rem;
+        padding: 20px;
+    }
+    .category-display, .level-display{
+        font-size: 2rem;
+    }
+    .prev, .next{
+        font-size: 3rem;
+        width: 250px;
+        margin-bottom: 250px;
+    }
+}

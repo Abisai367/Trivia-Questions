@@ -3,17 +3,18 @@
   justify-content: center;
   padding: 50px 20px;
   background-color: hsl(240, 100%, 98%);
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .result-card {
   background-color: white;
   padding: 30px;
   width: 500px;
+  height: 100%;
   border-radius: 15px;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
   text-align: center;
-  position: relative;
+
 }
 
 .trophy {
