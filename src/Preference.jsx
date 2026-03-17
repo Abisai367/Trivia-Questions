@@ -10,7 +10,7 @@ export default function Preference() {
     const navigate = useNavigate();
 
     function numberOfQuiz(event) {
-        setNumberOfQuestions(event.target.value).toString()
+        setNumberOfQuestions(event.target.value)
     }
 
     function categoryOfQuiz(event) {
