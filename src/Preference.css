@@ -125,22 +125,65 @@ select:hover{
     transform: scale(0.95);
 }
 
-@media screen and (max-width: 1000px){
+/* Small devices (mobile phones) */
+@media screen and (max-width: 600px) {
     h1{
-        font-size: 4rem;
+        font-size: 1.3rem;
+        padding: 10px;
+        letter-spacing: 2px;
     }
     h1 span{
-        font-size: 6rem;
-    }
-    .section-header p, #submit-btn, .section-header label{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .introText{
-        font-size: 3rem;
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+    }
+    .section-header{
+        font-size: 0.9rem;
+        margin: 10px 0;
+        width: 95%;
+    }
+    .section-header p, #submit-btn, .section-header label{
+        font-size: 0.9rem;
+    }
+    .section-header label{
+        padding: 8px 10px;
+        gap: 8px;
+    }
+    .introText{
+        font-size: 0.85rem;
     }
     select{
         width: 100%;
-        font-size: 1.2em;
+        font-size: 0.9rem;
+        padding: 8px;
     }
+    input[type="radio"]{
+        transform: scale(1);
+    }
+    #submit-btn{
+        padding: 8px;
+        font-size: 0.95rem;
+    }
+}
 
+/* Tablets */
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    h1 span{
+        font-size: 2.2rem;
+    }
+    .section-header p, #submit-btn, .section-header label{
+        font-size: 1.2rem;
+    }
+    .introText{
+        font-size: 1.1rem;
+    }
+    select{
+        width: 100%;
+        font-size: 1rem;
+    }
 }
